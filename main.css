@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1023px;
+    margin: 0 auto;
+    background-color: rgb(27, 59, 75);
+
+}
+#navegacao{
+    background-color: rgb(1, 38, 46);
+
+}
+#navegacao h1{
+    color: antiquewhite;
+}
+#sobre img{
+width: 100%;
+}
+#sobre{
+    color: antiquewhite;
+    padding: 120px 0;
+}
+@media screen and (max-width: 640px) {
+    #sobre{
+        padding: 0;
+    }
+}
